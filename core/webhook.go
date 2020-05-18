@@ -49,6 +49,7 @@ type (
 		User   *User       `json:"user,omitempty"`
 		Repo   *Repository `json:"repo,omitempty"`
 		Build  *Build      `json:"build,omitempty"`
+		Config *Config     `json:"config,omitempty"`
 	}
 
 	// WebhookSender sends the webhook payload.
